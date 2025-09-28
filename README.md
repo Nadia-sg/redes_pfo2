@@ -48,3 +48,17 @@ HTML de bienvenida: GET a /tareas desde navegador
 
 ### HTML de bienvenida
 ![Bienvenida](imagenes/Prueba-tareas-html.png)
+
+### DB Browser
+![Base de Datos](imagenes/BaseDatos_dbBrowser.png)
+
+## Respuestas Conceptuales de PFO2:
+### ¿Por qué hashear contraseñas?</h3>
+Nunca guardamos contraseñas en texto plano por seguridad.<br>
+Si la base se filtra, un atacante no puede ver las contraseñas reales.<br>
+Hash + salt (como hace generate_password_hash) hace que cada contraseña<br> 
+se almacene de forma única y segura
+### Ventajas de usar SQLite en este proyecto
+Es Ligero y fácil de instalar (no requiere servidor adicional).<br>
+Ideal para proyectos chicos o prácticas de laboratorio.<br>
+Se guarda en un solo archivo (tareas.db), fácil de versionar o mover.
